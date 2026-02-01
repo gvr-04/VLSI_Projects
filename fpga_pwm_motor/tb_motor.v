@@ -18,7 +18,7 @@ initial clk = 0;
 always #10 clk = ~clk;
 
 initial begin
-	$dumpfile("final.vcd");
+	$dumpfile("wave.vcd");
 	$dumpvars(0, motor_tb);
 
     switch = 3'b000;
