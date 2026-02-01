@@ -10,7 +10,7 @@ parameter duty1 = 8;
 
 integer counter = 0;
 always @(posedge clk) begin
-	if (counter < cycle_len) counter <= counter + 1;
+	if (counter < cycle_len-1) counter <= counter + 1;
 	else counter <= 0;
 end
 

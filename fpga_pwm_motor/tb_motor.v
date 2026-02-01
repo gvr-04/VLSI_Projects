@@ -22,7 +22,7 @@ initial begin
 	$dumpvars(0, motor_tb);
 
     switch = 3'b000;
-    #400;
+    #100;
 
     switch = 3'b001;
     #400;
