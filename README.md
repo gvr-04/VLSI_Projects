@@ -1,17 +1,16 @@
 # VLSI_Projects
 
-## workflow with Icarus Verilog
-1. verilog files
+## Workflow with Icarus Verilog
+1. Verilog files
 ```bash
 iverilog tb_name -o sim_name
 ```
-2. systemverilog files
+2. Systemverilog files
 ```bash
 iverilog -g2012 name.sv tb_name.sv -o sim_name
 ```
 
-## nomenclature
+## Nomenclature
 sim_name -> simulation file
 wave.vcd -> waveform generation file
-
 
