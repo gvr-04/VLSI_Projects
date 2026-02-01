@@ -1,2 +1,3 @@
-![Image](pics/waveform.png)
+### Waveform
+![Waveform](pics/waveform.png)
 

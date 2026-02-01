@@ -1,7 +1,7 @@
 module alu_8bit (
     input  logic [7:0] A,
     input  logic [7:0] B,
-    input  logic [3:0] ALU_Sel,
+    input  logic [3:0] Opcode,
     output logic [7:0] Result,
     output logic Carry,
     output logic Zero,
@@ -11,12 +11,11 @@ module alu_8bit (
     logic [8:0] temp;
 
     always @(*) begin
-        // defaults
         Result   = 8'b0;
         Carry    = 1'b0;
         Overflow = 1'b0;
 
-        case (ALU_Sel)
+        case (Opcode)
             4'b0000: begin
                 temp     = A + B;
                 Result   = temp[7:0];
