@@ -7,8 +7,10 @@ Objective - control motor speed and direction using fpga on board switches
         <p align="center">
             <img src="pics/spartan-6.jpg" width="400" />
         </p>
-
     * L298N Motor driver board (H-bridge)
+        <p align="center">
+            <img src="pics/motor-driver.jpg" width="400" />
+        </p>
 * Input
     * Slide Switches at ports 22, 21, 17
     * Clock signal at port 84
