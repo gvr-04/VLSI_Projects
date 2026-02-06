@@ -8,9 +8,9 @@ NET "switch<0>" LOC = "p22";
 NET "switch<1>" LOC = "p21";
 NET "switch<2>" LOC = "p17";
 
-NET "motor<0>"  LOC = "p75";
-NET "motor<1>"  LOC = "p74";
-NET "motor<2>"  LOC = "p67";
+NET "motor<0>"  LOC = "p45";
+NET "motor<1>"  LOC = "p46";
+NET "motor<2>"  LOC = "p47";
 
 NET "switch<0>" PULLUP;
 NET "switch<1>" PULLUP;
