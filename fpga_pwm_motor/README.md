@@ -15,8 +15,8 @@ Objective - control motor speed and direction using fpga on board switches
     * Slide Switches at ports 22, 21, 17
     * Clock signal at port 84
 * Ouptut
-    * GPIO pins at 75, 74, 67 connected to In1, In2, ENA 
-* Switch positions
+    * GPIO pins at ports 45, 46, 47 connected to In1, In2, ENA 
+* Switch positions and corresponding functions
     
     | Switch Position | Function             | PWM Duty Cycle |
     | --------------- | -------------------- | -------------- |
