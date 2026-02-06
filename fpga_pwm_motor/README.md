@@ -4,7 +4,9 @@ Objective - control motor speed and direction using fpga on board switches
 
 * Components Used
     * Spartan-6 fpga board
+        ![FPGA board](pics/spartan-6.jpg)
     * L298N Motor driver board (H-bridge)
+        ![Motor Driver](pics/motor-driver.jpg)
 * Input
     * Slide Switches at ports 22, 21, 17
     * Clock signal at port 84
