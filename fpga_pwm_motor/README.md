@@ -17,14 +17,14 @@ Objective - control motor speed and direction using fpga on board switches
 * Ouptut
     * GPIO pins at 75, 74, 67 connected to In1, In2, ENA 
 * Switch positions
-
-| Switch Position | Function             | PWM Duty Cycle |
-|:---------------:|:--------------------:|:--------------:|
-| 000             | Motor off            |                |
-| 001             | Forward direction    | 4/10           |
-| 011             | Backward direction   | 4/10           |
-| 101             | Forward direction    | 8/10           |
-| 111             | Backward direction   | 8/10           |
+    
+    | Switch Position | Function             | PWM Duty Cycle |
+    | --------------- | -------------------- | -------------- |
+    | 000             | Motor off            | NA             |
+    | 001             | Forward direction    | 40%            |
+    | 011             | Backward direction   | 40%            |
+    | 101             | Forward direction    | 80%            |
+    | 111             | Backward direction   | 80%            |
 
 * Working
     * Use a counter which countes from 0-9 (10 steps) at every positive edge of clock
