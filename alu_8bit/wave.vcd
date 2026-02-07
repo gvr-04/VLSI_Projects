@@ -1,5 +1,5 @@
 $date
-	Sun Feb  1 16:26:22 2026
+	Sat Feb  7 12:25:36 2026
 $end
 $version
 	Icarus Verilog
@@ -14,11 +14,11 @@ $var wire 1 # Overflow $end
 $var wire 1 $ Carry $end
 $var reg 8 % A [7:0] $end
 $var reg 8 & B [7:0] $end
-$var reg 4 ' Opcode [3:0] $end
+$var reg 3 ' Opcode [2:0] $end
 $scope module dut $end
 $var wire 8 ( A [7:0] $end
 $var wire 8 ) B [7:0] $end
-$var wire 4 * Opcode [3:0] $end
+$var wire 3 * Opcode [2:0] $end
 $var wire 1 ! Zero $end
 $var reg 1 $ Carry $end
 $var reg 1 # Overflow $end

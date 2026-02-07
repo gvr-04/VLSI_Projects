@@ -1,7 +1,7 @@
 module alu_8bit (
     input  logic [7:0] A,
     input  logic [7:0] B,
-    input  logic [3:0] Opcode,
+    input  logic [2:0] Opcode,
     output logic [7:0] Result,
     output logic Carry,
     output logic Zero,
@@ -30,12 +30,12 @@ module alu_8bit (
                 Overflow = ((A[7] ^ B[7])) & (A[7] ^ Result[7]);
             end
 
-            4'b0010: Result = A & B;
-            4'b0011: Result = A | B;
-            4'b0100: Result = A ^ B;
-            4'b0101: Result = ~A;
-            4'b0110: Result = A << 1;
-            4'b0111: Result = A >> 1;
+            3'b010: Result = A & B;
+            3'b011: Result = A | B;
+            3'b100: Result = A ^ B;
+            3'b101: Result = ~A;
+            3'b110: Result = A << 1;
+            3'b111: Result = A >> 1;
 
             default: Result = 8'b0;
         endcase
