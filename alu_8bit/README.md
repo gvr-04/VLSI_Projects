@@ -44,11 +44,11 @@ This module performs basic arithmetic and logical operations based on a 3-bit op
 
 ## Waveforms and Output
 <p align="left">
-  <img src="pics/output.png" alt="OUTPUT" width="400">
+  <img src="pics/output.png" alt="OUTPUT" width="600">
 </p>
 
 <p align="left">
-  <img src="images/waveform.png" alt="WAVEFORM" width="400">
+  <img src="pics/waveform.png" alt="WAVEFORM" width="1000">
 </p>
 
 ---
